@@ -1,0 +1,202 @@
+body{
+	background-color:#b3d9ff;
+	font-family:'roboto mono'; 
+}
+#header-nav{
+	border-radius: 0;
+	background:yellow;
+}
+#logo-img{
+	background: url(https://domainprice.me/wp-content/uploads/2017/07/BLOG-online.png) no-repeat;
+    width:250px;
+	height: 100px;
+	margin:10px 15px 10px 0px;
+	border-radius: 5%;
+	display:block;
+	max-width:100%;
+	max-height: 100%;
+}
+.navbar-brand{
+	margin-top:10px;
+	margin-left:80px;
+	font-size: 50px;
+}
+.navbar-brand-h1{
+	color:black;
+	font-size:1.5em;
+	font-weight:bold;
+	text-shadow:2px 2px 2px black;
+
+}
+.navbar-brand a:hover {
+	text-decoration: blink;
+}
+.nav-link{
+	font-size:2vw;
+	font-family:roboto mono;
+	color:black;
+}
+.nav-item a:hover,a:visited{
+	background: white;
+	box-shadow:0px 0px 5px green;
+}
+.pic{
+	background: white;
+	outline:solid white;
+	box-shadow:0 0 20px black;
+	text-align: center;
+	outline: solid red;
+}
+.para{
+	background: white;
+	outline: solid white;
+	box-shadow:0 0 20px black;
+	text-align: center;
+	outline: solid red;
+}
+.poem{
+	background: white;
+	outline: solid white;
+	box-shadow:0 0 20px black;
+		text-align: center;
+    outline: solid red;
+}
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+.jumbotron{
+   background: url("img/disp1200.jpg") no-repeat;
+   height:675px;
+   border: 2px solid black;
+   box-shadow: 0 0 50px white;
+   margin-top: 15px;
+}
+
+.col-lg-4{
+	width: 33%;
+	float:left;
+}
+
+.row{
+	margin-top: 50px;
+}
+
+}
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+	.jumbotron{
+background: url("img/disp992.jpg") no-repeat;
+height:558px;
+border: 2px solid black;
+box-shadow: 0 0 50px white;
+margin-top: 15px;
+}
+
+.col-lg-4{
+	width: 33%;
+	float:left;
+}
+
+.row{
+	margin-top: 50px;
+}
+ 
+}/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+ .navbar-toggler{
+		margin-top:3%;
+	}
+
+		.jumbotron{
+background: url("img/disp768.jpg") no-repeat;
+height:432px;
+border: 2px solid black;
+box-shadow: 0 0 50px white;
+margin-top: 15px;
+}
+.nav-link{
+  	text-align: center;
+  	font-size: 23px;
+  }
+
+  .col-dm-2{
+  	width:50%;
+  	float:left;
+  }
+  .col-dm-1{
+ 	float: left;
+  	width:100%;
+  }
+
+.row{
+	margin-top: 30px;
+}
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px)  and (min-width:576px){
+  .navbar-toggler{
+		margin-top:3%;
+	}
+		.jumbotron{
+        background: url("img/disp576.jpg") no-repeat;
+        height:350px;
+        border: 2px solid black;
+        box-shadow: 0 0 50px white;
+        margin-top: 15px;
+}
+.nav-link{
+  	text-align: center;
+  	font-size: 18px;
+  }
+
+  .title{
+  	font-size:7vw;
+  }
+
+  .col-ms-1{
+  	width:100%;
+  	float:left;
+  }
+
+.row{
+	margin-top: 20px;
+}
+
+.title{
+	margin-top: 50px;
+}
+}
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 575px) {
+	.navbar-brand h1{
+		font-size:9vw;
+	}
+	.navbar-toggler{
+		margin-top:5%;
+	}
+  .nav-link{
+  	text-align: center;
+  	font-size: 18px;
+  }
+   .jumbotron{
+  	margin:15px;
+  padding:0;
+  border: 2px solid black;
+box-shadow: 0 0 50px white;
+  } 
+
+  .title{
+  	font-size:7vw;
+  }
+
+  .col-ms-1{
+  	width:100%;
+  	float:left;
+  }
+  
+.row{
+	margin-top: 15px;
+}
+}
